@@ -1,0 +1,118 @@
+.App {
+	text-align: center;
+	width: 200px;
+}
+
+.App-logo {
+	height: 40vmin;
+}
+
+.App-header {
+	background-color: #282c34;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #09d3ac;
+}
+
+.open-button {
+	background-color: #4caf50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	width: 100%;
+}
+
+.open-button:hover {
+	box-shadow: 0 12px 16px 0 darkgray, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 0.5rem;
+}
+
+.title {
+	color: white;
+	text-shadow: 2px 2px 4px grey;
+	font-size: 19px;
+}
+
+.input-field {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 19px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	box-sizing: border-box;
+}
+
+.link {
+	margin-right: 0.4rem;
+	text-decoration: none;
+	display: flex;
+	justify-content: flex-end;
+	color: white;
+}
+
+.flex {
+	display: flex;
+}
+
+.select-project {
+	font-size: 15px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	background-color: lightgrey;
+	margin: 0.5rem 0.3rem;
+	border-radius: 0.3rem;
+}
+
+::placeholder {
+	font-weight: 100;
+	font-size: 13px;
+	color: #cccccced;
+}
+
+.open-button-container {
+	margin: 0.4rem;
+}
+
+.container .input-field {
+	margin: 0.5rem 0.4rem 0.5rem 0;
+}
+
+.setting-container {
+	margin-top: 1rem;
+}
+
+.home-title {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.home-form {
+	margin-top: 1rem;
+	border-top: 1px solid white;
+}
+
+.project-id-container {
+	margin: 0.5rem 0;
+}
+
+.project-id-container .input-field {
+	padding: 0.8rem 0.8rem;
+}
