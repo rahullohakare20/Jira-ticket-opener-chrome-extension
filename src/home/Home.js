@@ -7,7 +7,6 @@ import './Home.css';
 function Home() {
   const [ id, setId ] = useState('');
   const [ invalid, setInvalid ] = useState(false);
-  const [ selectedProject, setSelectedProject ] = useState(false);
 
   const getProjectNameLists = () => {
     const projectNameLists = localStorage.getItem('projectNames')
@@ -24,6 +23,7 @@ function Home() {
   }
 
   const [ projectNames, setProjectNames ] = useState(getProjectNameLists());
+  const [ selectedProject, setSelectedProject ] = useState(projectNames[ 0 ]);
 
   const onEnter = (event) => {
     if (event.keyCode === 13) {
